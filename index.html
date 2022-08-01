@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Project</title>
+        <style>
+            h1 {
+                text-transform: uppercase;
+                text-align: center;
+                letter-spacing: 10px;
+                color: #ff99c8;
+                border: 1px solid #ff99c8;
+                border-radius: 15px;
+            }
+            p {
+                text-align: justify;
+                font-size: 18px; /* Ovo je velicina slova 18px */
+                margin: 18px; /* top right bottom left*/
+            }
+            h2 {
+                color: #a9def9;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 700;
+                letter-spacing: 5px;
+            }
+            img {
+                object-fit: cover;
+            }
+            .btn {
+                width: 100%;
+                border: none;
+                border-radius: 25px;
+                padding: 12px;
+                background-color: #80dba3;
+                color: #fff;
+                cursor: pointer;
+            }
+            .btn:hover {
+                background-color: #a9def9;
+            }
+        </style>
+        <script>
+            function onButtonClick() {
+                console.log("Button clicked");
+                alert('Your flight is at 8pm');
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Travel Guide</h1>
+        <p><strong>Lorem ipsum </strong>dolor sit amet consectetur adipisicing elit. Dignissimos impedit qui, aperiam temporibus repellendus nulla deserunt quidem iure at nisi? Expedita id aliquid quibusdam perspiciatis sapiente? Vitae facere et fugiat, rerum maiores, eos, iure similique perspiciatis incidunt ipsum autem enim! Voluptates, reiciendis at. In, debitis corrupti neque pariatur molestiae excepturi?</p>
+        <h2>Cappadocia</h2>
+        <img src="travel.jpg" width="100%" height="360px"/>
+        <p>To read more vist <a href="https://en.wikipedia.org/wiki/Cappadocia" target="_blank">link</a>.</p>
+        <button class="btn" onclick="onButtonClick()">Book Now</button>
+    </body>
+</html>
